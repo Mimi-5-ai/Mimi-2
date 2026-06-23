@@ -11,7 +11,7 @@ export default function Hero({ onScrollToServices, onScrollToPortfolio }) {
 
       <div style={{ position: "relative" }}>
         <div style={{ display: "inline-flex", alignItems: "center", gap: 6, background: "rgba(255,255,255,0.15)", padding: "6px 14px", borderRadius: 20, marginBottom: 16 }}>
-          <span style={{ fontSize: 12, color: "rgba(255,255,255,0.9)", fontWeight: 600 }}>✨ متاح للعمل الآن</span>
+          <span style={{ fontSize: 12, color: "rgba(255,255,255,0.9)", fontWeight: 600 }}> متاح للعمل  ✨</span>
         </div>
 
         <h1 style={{ color: "white", fontSize: "clamp(26px, 7vw, 46px)", fontWeight: 900, lineHeight: 1.3, marginBottom: 12 }}>
