@@ -48,9 +48,9 @@ export default function Navbar({ cartCount, onLogoClick, onCartClick }) {
       >
         <defs>
           <linearGradient id="textGradient" x1="420" y1="520" x2="1180" y2="610" gradientUnits="userSpaceOnUse">
-            <stop offset="0%" stopColor="#123F63"/>
-            <stop offset="50%" stopColor="#284E72"/>
-            <stop offset="100%" stopColor="#123F63"/>
+            <stop offset="0%" stopColor="#172e12"/>
+            <stop offset="50%" stopColor="#122e19"/>
+            <stop offset="100%" stopColor="#0a1d2d"/>
           </linearGradient>
 
           <style>{`
