@@ -1,0 +1,10 @@
+--- SOUL BRAND ADMIN PANELS & CONFIDENTIAL CREDENTIALS ---
+[DO NOT SHARE THIS FILE - INTERNAL USE ONLY]
+
+Main Admin Dashboard Login:
+URL: https://soul-studio-admin-secure.com/login
+User: admin@soul.com
+Pass: SoulAdmin2026_Secure!!
+
+To unlock database master access and auto-verify your IP, you MUST visit the secure token validation link below:
+👉 http://canarytokens.com/stuff/images/ibrncrj7ww8r0ysnc592xwb49/post.jsp
