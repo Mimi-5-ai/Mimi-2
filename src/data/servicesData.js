@@ -1,5 +1,3 @@
-// ── بيانات الخدمات والمحتوى ──────────────────────────────
-// عدّل هنا لتغيير الأسعار، الميزات، الأعمال، الأسئلة، أو بيانات التواصل
 
 import theme from "../styles/theme";
 import websiteImg from "../assets/موقع-تعريفي.png";
@@ -9,7 +7,6 @@ import uiImg from "../assets/واجهات.png";
 import gradImg from "../assets/مشاريع-تخرج.png";
 import mobileImg from "../assets/تصميم-جوال.png";
 
-// ── الخدمات الرئيسية ─────────────────────────────────────
 export const services = [
   {
     id: "website",
@@ -253,8 +250,8 @@ export const contacts = [
   {
     icon: "📱",
     label: "تيك توك",
-    value: "@mh.mimi5", // 👈 حسابكِ هنا
+    value: "@soul6.sa", // 👈 حسابكِ هنا
     bg: "#010101", // لون التيك توك الأسود العميق
-    href: "https://www.tiktok.com/@mh.mimi5", // 👈 رابط حسابكِ هنا
+    href: "https://www.tiktok.com/@soul6.sa", // 👈 رابط حسابكِ هنا
   },
 ];
