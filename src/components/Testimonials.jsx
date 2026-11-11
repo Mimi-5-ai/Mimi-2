@@ -166,9 +166,9 @@ function TestimonialForm({ formData, setFormData, handleSubmit, loading, setShow
         </div>
       ) : (
         <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-          <input type="text" placeholder="اسمك الكامل" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} style={{ padding: "12px 14px", border: `1px solid ${theme.greenPale}`, borderRadius: 10, fontFamily: "'Cairo', sans-serif", fontSize: 14 }} required />
+          <input type="text" placeholder="اسمك الكامل" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} maxLength={80} style={{ padding: "12px 14px", border: `1px solid ${theme.greenPale}`, borderRadius: 10, fontFamily: "'Cairo', sans-serif", fontSize: 14 }} required />
           {/* تم حذف حقل الوظيفة من هنا تماماً */}
-          <textarea placeholder="اكتب رأيك هنا..." value={formData.text} onChange={(e) => setFormData({ ...formData, text: e.target.value })} style={{ padding: "12px 14px", border: `1px solid ${theme.greenPale}`, borderRadius: 10, fontFamily: "'Cairo', sans-serif", fontSize: 14, minHeight: 100, resize: "none" }} required />
+          <textarea placeholder="اكتب رأيك هنا..." value={formData.text} onChange={(e) => setFormData({ ...formData, text: e.target.value })} maxLength={1000} style={{ padding: "12px 14px", border: `1px solid ${theme.greenPale}`, borderRadius: 10, fontFamily: "'Cairo', sans-serif", fontSize: 14, minHeight: 100, resize: "none" }} required />
           
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <label style={{ fontSize: 14, fontWeight: 700 }}>التقييم:</label>
